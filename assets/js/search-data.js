@@ -9,12 +9,26 @@ ninja.data = [{
     handler: () => {
       window.location.href = "/";
     },
-  },{id: "nav-publications",
+  },{id: "nav-experience",
+          title: "Experience",
+          description: "Education, professional experience, scholarships and awards",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/experience/";
+          },
+        },{id: "nav-publications",
           title: "Publications",
           description: "My research includes 1) Visual AI 2) Sensors 3) AI+Architecture",
           section: "Navigation",
           handler: () => {
             window.location.href = "/publications/";
+          },
+        },{id: "nav-design",
+          title: "Design",
+          description: "Paticipated design projects as main contributor; My own artworks",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/design/";
           },
         },{id: "nav-projects",
           title: "Projects",
@@ -25,10 +39,17 @@ ninja.data = [{
           },
         },{id: "nav-teaching",
           title: "Teaching",
-          description: "Materials for courses you taught. Replace this text with your description.",
+          description: "Materials for courses I taught",
           section: "Navigation",
           handler: () => {
             window.location.href = "/teaching/";
+          },
+        },{id: "nav-presentations",
+          title: "Presentations",
+          description: "Conference presentations and invited talks",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/presentations/";
           },
         },{id: "post-google-gemini-updates-flash-1-5-gemma-2-and-project-astra",
         
@@ -97,25 +118,11 @@ ninja.data = [{
           window.open("https://instagram.com/songguo7199", "_blank");
         },
       },{
-        id: 'social-orcid',
-        title: 'ORCID',
-        section: 'Socials',
-        handler: () => {
-          window.open("https://orcid.org/https://orcid.org/0009-0005-3257-9744", "_blank");
-        },
-      },{
         id: 'social-scholar',
         title: 'Google Scholar',
         section: 'Socials',
         handler: () => {
-          window.open("https://scholar.google.com/citations?user=qc6CJjYAAAAJ", "_blank");
-        },
-      },{
-        id: 'social-semanticscholar',
-        title: 'Semantic Scholar',
-        section: 'Socials',
-        handler: () => {
-          window.open("https://www.semanticscholar.org/author/", "_blank");
+          window.open("https://scholar.google.com/citations?user=RO-8arQAAAAJ", "_blank");
         },
       },{
         id: 'social-wechat_qr',
